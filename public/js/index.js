@@ -1,5 +1,4 @@
 console.log("javascript loaded..")
-
 const form=document.querySelector("form")
 const loading=document.querySelector("h3")
 
