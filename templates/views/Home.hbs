@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<head>
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+
+<body>
+{{>Header}}
+
+    <div id="all_note">
+        <div id="create_note">
+        <div id="note">
+            <form>
+            <input type="text" placeholder="Title"><br>
+            <textarea placeholder="Description"></textarea><br>
+            <button type="submit">Submit</button>
+            </form>
+        </div>
+        
+        </div>
+        <h3></h3>
+        <div id="show_note">
+
+        </div>
+    </div>
+ 
+{{>Footer}}
+
+<script src="./js/index.js"></script>
+</body>
+
+</html>

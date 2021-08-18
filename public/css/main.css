@@ -1,0 +1,107 @@
+body{
+    max-width: 100%;
+    border: 2px solid black;
+  
+}
+footer{
+    width: 100%;
+    text-align: center;
+}
+header{
+   margin-left: 20px;
+    height: 100px;
+    padding-top: 10px;
+    
+}
+header a{
+    text-decoration: none;
+    margin-right: 50px;
+}
+
+#all_note{
+    width: 100%;
+
+}
+
+#create_note{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#note{
+    width: 250px;
+    height: 150px;
+   border-left: 1px solid gray;
+   border-right: 1px solid gray;
+   border-radius: 2px;
+}
+
+
+#note input,textarea{
+    width: 245px;
+}
+
+#note input{
+    margin-top:10px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid gray;
+}
+
+#note textarea{
+    resize: none;
+    height: 75px;
+    outline: none;
+    border:none;
+    padding-top: 10px;
+}
+
+button{
+    width: 100%;
+    background-color: gray;
+    color: white;
+    border:none;
+    height: 30px;
+    border-radius: 5px;
+}
+button:hover{
+    cursor: pointer;
+}
+
+
+#show_note{
+    width: 100%;
+}
+
+
+
+#search_note input{
+    width: 200px;
+    
+    border:none;
+    outline: none;
+    border-bottom: 1px solid gray;
+}
+#search_note button{
+    width: 100px;
+    margin-top: 20px;
+
+}
+
+#all_notes{
+    width: 200px;
+    height: 130px;
+    border:1px solid gray;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#show_note{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

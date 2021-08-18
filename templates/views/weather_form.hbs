@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<head>
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+
+<body>
+{{>Header}}
+
+    <div id="all_note">
+        <div id="create_note">
+        <div id="search_note">
+            <form>
+            <input type="text" placeholder="Location"><br>
+          
+            <button type="submit">Search</button>
+            </form>
+        </div>
+        </div>
+       <hr>
+       <p style="display: block;width: 100%;text-align: center;"></p>
+        <div id="show_note" >
+
+        </div>
+    </div>
+  
+{{>Footer}}
+
+<script src="./js/search_weather.js"></script>
+
+</body>
+
+</html>
