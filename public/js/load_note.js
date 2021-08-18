@@ -1,7 +1,7 @@
 const notes=document.querySelector("#create_note")
 
 window.onload=function (){
-    fetch("http://localhost:3000/get/note").then((response)=>{
+    fetch("/get/note").then((response)=>{
         response.json().then((data)=>{
             data.map((obj)=>{
                 var div=document.createElement("div")

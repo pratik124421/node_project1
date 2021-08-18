@@ -9,7 +9,7 @@ form.addEventListener("submit",(event)=>{
     loading.innerHTML="Loading..."
     const title=document.querySelector("input")
     const description=document.querySelector("textarea")
-    fetch("http://localhost:3000/insert/note?title="+title.value+"&description="+description.value).then((response)=>{
+    fetch("/insert/note?title="+title.value+"&description="+description.value).then((response)=>{
     response.json().then((data)=>{
         loading.innerHTML=""
         title.value=""

@@ -3,7 +3,7 @@ const notes = document.querySelector("#show_note")
 form.addEventListener("submit", (event) => {
     event.preventDefault()
     const title = document.querySelector("input").value
-    fetch("http://localhost:3000/search/notes?title=" + title).then((response) => {
+    fetch("/search/notes?title=" + title).then((response) => {
         response.json().then((data) => {
             if (notes.childElementCount!=0) {
                 notes.removeChild(notes.firstElementChild);

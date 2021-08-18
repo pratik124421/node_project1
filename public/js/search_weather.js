@@ -5,7 +5,7 @@ form.addEventListener("submit", (event) => {
     event.preventDefault()
     const address = document.querySelector("input").value
     p.innerText="Loading..."
-    fetch("http://localhost:3000/weather?address=" + address).then((response) => {
+    fetch("/weather?address=" + address).then((response) => {
         response.json().then((data) => {
             if (notes.childElementCount!=0) {
                 notes.removeChild(notes.firstElementChild);
